@@ -1,0 +1,28 @@
+{
+    "name": "manbuv/backup",
+    "description": "BackupBundle",
+    "type": "pimcore-bundle",
+    "require": {
+        "pimcore/pimcore": ">=5.8",
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "manbuv"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BackupBundle\\": "src/BackupBundle"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "BackupBundle\\BackupBundle"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
